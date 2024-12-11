@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Social Links</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="scene">
+        <div class="neon-box">
+            <h1>Connect With Me</h1>
+            <p>Explore my world on these platforms:</p>
+            <div class="social-buttons">
+                <a href="https://facebook.com" class="btn facebook" target="_blank" onmouseover="showProfile('facebook')" onmouseout="hideProfile()">
+                    <img src="facebook.png" alt="Facebook Logo"> Facebook
+                </a>
+                <a href="https://twitter.com" class="btn twitter" target="_blank" onmouseover="showProfile('twitter')" onmouseout="hideProfile()">
+                    <img src="x.png" alt="Twitter Logo"> Twitter
+                </a>
+                <a href="https://instagram.com" class="btn instagram" target="_blank" onmouseover="showProfile('instagram')" onmouseout="hideProfile()">
+                    <img src="insta.jpg" alt="Instagram Logo"> Instagram
+                </a>
+                <a href="https://linkedin.com" class="btn linkedin" target="_blank" onmouseover="showProfile('linkedin')" onmouseout="hideProfile()">
+                    <img src="in.png" alt="LinkedIn Logo"> LinkedIn
+                </a>
+            </div>
+            <div class="profile-preview" id="profile-preview">
+                <!-- Profile information dynamically inserted here -->
+            </div>
+        </div>
+    </div>   
+
+    <script src="script.js"></script>
+</body>
+</html>
